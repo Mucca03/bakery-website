@@ -4,7 +4,7 @@ import tortaAgape from "../assets/tortaAgape.png";
 const HeroAgape = () => {
     return (
         <section className="bg-agapeHeader py-10">
-            <div className="relative max-w-screen-xl mx-auto h-[500px] font-poppins">
+            <div className="relative max-w-screen-xl mx-auto h-[550px] font-poppins">
                 <img
                     src={logoAgape}
                     className="absolute z-10 top-[0px] left-[380px] w-[450px] h-auto"

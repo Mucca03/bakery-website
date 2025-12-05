@@ -1,4 +1,4 @@
-import {HeaderAgape, HeroAgape} from "./components/index.js";
+import {AboutUs, HeaderAgape, HeroAgape} from "./components/index.js";
 
 const App = () => {
     return (
@@ -6,6 +6,7 @@ const App = () => {
             <main>
                 <HeaderAgape/>
                 <HeroAgape/>
+                <AboutUs/>
             </main>
         </>
     )
