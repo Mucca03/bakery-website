@@ -9,7 +9,16 @@
     --color-GreenAU: #ccdd97;
     --color-agapeText: #fe82ef;
     --color-buttomAgape: #fdb0f2;
-    --drop-shadow-cake: 0px 35px 35px rgba(0, 0, 0, 0.25);
+    --color-redText: #84002E;
+    --drop-shadow-cake: 0px 55px 35px rgba(0, 0, 0, 0.25);
 
     --font-poppins: "Poppins", sans-serif;
+}
+
+.ovalo {
+    width: 300px;
+    height: 150px;
+    background: #fff;
+    border-radius: 50%;
+    filter: drop-shadow(0px 55px 35px rgba(0,0,0,0.25));
 }
