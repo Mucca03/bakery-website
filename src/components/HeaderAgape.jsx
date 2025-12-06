@@ -9,7 +9,7 @@ const HeaderAgape = () => {
                 </a>
                 <div className="flex items-center lg:order-2">
                     <a className="flex items-center">
-                        <img src={flowersHeader} className="h-12 sm:h-17" alt="Flowers"/>
+                        <img src={flowersHeader} className="h-10 sm:h-17" alt="Flowers"/>
                     </a>
                 </div>
                 <div className="bg-white font-normal rounded-full inset-shadow-sm inset-shadow-neutral-400 px-7 py-3 text-xl hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1"
