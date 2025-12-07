@@ -1,6 +1,4 @@
-import flowersHeader from "../assets/headerAgape.png";
-import selloAgape from "../assets/selloAgape.png"
-import tortaAgapeA from "../assets/tortaAgapeA.png"
+import {flowersHeader, selloAgape, tortaAgapeA} from "../assets/index.js"
 
 const AboutUs = () => {
     return (

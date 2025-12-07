@@ -1,4 +1,4 @@
-import flowersHeader from "../assets/headerAgape.png";
+import {flowersHeader} from "../assets/index.js"
 
 const HeaderAgape = () => {
     return (
