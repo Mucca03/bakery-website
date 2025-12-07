@@ -13,7 +13,7 @@ const Products = () => {
                 </div>
             </div>
 
-            <div className="mt-16 grid grid-cols-3 place-items-center ">
+            <div className="mt-16 grid grid-cols-3 place-items-center">
                 <img
                     className="-mb-40 rounded-base mx-auto z-10"
                     src={cuchareable}
@@ -31,8 +31,7 @@ const Products = () => {
                 />
             </div>
 
-            <div className="grid grid-cols-3 mt-0 place-items-center">
-
+            <div className="grid grid-cols-3 mt-0 place-items-center drop-shadow-md/50">
                 <div className="bg-card1 rounded-4xl w-[350px] h-[400px] flex flex-col items-center justify-between p-6 pt-2">
                     <img className="mt-35" src={cuchareableText} alt="cuchareableText" />
                     <p className="text-2xl text-white font-light text-center italic w-[250px]">
@@ -45,7 +44,6 @@ const Products = () => {
                         Ordenar ahora
                     </a>
                 </div>
-
                 <div className="bg-card2 rounded-4xl w-[350px] h-[400px] flex flex-col items-center justify-between p-6 pt-2">
                     <img className="mt-35" src={cakesText} alt="cakesText" />
                     <p className="text-2xl text-white font-light text-center italic w-[250px]">
@@ -58,7 +56,6 @@ const Products = () => {
                         Ordenar ahora
                     </a>
                 </div>
-
                 <div className="bg-card3 rounded-4xl w-[350px] h-[400px] flex flex-col items-center justify-between p-6 pt-2">
                     <img className="mt-35" src={cookiesText} alt="cookiesText" />
                     <p className="text-2xl text-white font-light text-center italic w-[250px]">
@@ -72,9 +69,7 @@ const Products = () => {
                     </a>
                 </div>
             </div>
-
         </section>
-
     )
 }
 export default Products
