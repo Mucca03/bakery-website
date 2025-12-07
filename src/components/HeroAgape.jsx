@@ -1,5 +1,4 @@
-import logoAgape from "../assets/logoAgape.png";
-import tortaAgape from "../assets/tortaAgape.png";
+import {logoAgape, tortaAgape} from "../assets/index.js"
 
 const HeroAgape = () => {
     return (
