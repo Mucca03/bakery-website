@@ -10,6 +10,12 @@ import selloAgape from "./selloAgape.png"
 import tortaAgapeA from "./tortaAgapeA.png"
 import logoAgape from "./logoAgape.png";
 import tortaAgape from "./tortaAgape.png";
+import footerCake from "./footerCake.png"
+import logoAgapeSello from "./logoAgapeSello.png"
+import whatsappIcon from "./whatsapp.svg"
+import igIcon from "./instagram.svg"
+import backgroundFooter from "./backgroundFooter.svg"
 
-
-export {logoAgape, tortaAgape, flowersHeader, selloAgape, tortaAgapeA, nuestrosClientes, cuchareableText, cookiesText, cakesText, cuchareable, cookies, cakes}
+export {logoAgape, tortaAgape, flowersHeader, selloAgape, tortaAgapeA, nuestrosClientes,
+    cuchareableText, cookiesText, cakesText, cuchareable, cookies, cakes, footerCake,
+    logoAgapeSello,igIcon, whatsappIcon, backgroundFooter}

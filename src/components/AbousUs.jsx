@@ -4,8 +4,6 @@ const AboutUs = () => {
     return (
 
         <section>
-
-            {/*bg-gradient-to-b from-GreenAU to-agapeHeader*/}
             <div className="relative bg-GreenAU font-poppins">
                 <div className="bg-agapeHeader">
                     <svg className="absolute -top-20" viewBox="0 0 1440 100" fill="none" xmlns="http://www.w3.org/2000/svg">
