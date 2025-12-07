@@ -2,7 +2,7 @@ import flowersHeader from "../assets/headerAgape.png";
 
 const HeaderAgape = () => {
     return (
-        <nav className="bg-agapeHeader border-gray-200 px-4 lg:px-6 py-2.5 font-poppins">
+        <nav className="bg-agapeHeader border-gray-200 px-4 lg:px-6 py-2.5 font-poppins z-10">
             <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
                 <a className="flex items-center">
                     <img src={flowersHeader} className="h-10 sm:h-17" alt="Flowers"/>

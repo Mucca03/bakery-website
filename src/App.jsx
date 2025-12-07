@@ -1,4 +1,4 @@
-import {AboutUs, HeaderAgape, HeroAgape, Test} from "./components/index.js";
+import {AboutUs, HeaderAgape, HeroAgape, Products} from "./components/index.js";
 
 const App = () => {
     return (
@@ -7,8 +7,7 @@ const App = () => {
             <main className="bg-agapeHeader">
                 <HeroAgape />
                 <AboutUs />
-                <Test />
-
+                <Products />
             </main>
         </>
     )
