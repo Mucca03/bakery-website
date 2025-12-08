@@ -2,24 +2,24 @@ import {flowersHeader, footerCake, logoAgapeSello, whatsappIcon, igIcon, backgro
 
 const Footer = () => {
     return (
-        <section className="relative overflow-hid  bg-agapeHeader ">
+        <section className="max-w-screen-xl mx-auto relative overflow-hidden bg-agapeHeader px-6 py-20">
             <img
                 src={backgroundFooter}
                 alt="bgFooter"
-                className="absolute h-full w-full"
+                className="absolute h-full w-full pointer-events-none"
             />
 
-            <div className="grid grid-cols-2 font-poppins gap-10 mt-15 h-[850px] relative">
-                <div className="ml-auto">
+            <div className="grid grid-cols-1 lg:grid-cols-2 font-poppins gap-10 mt-15 pb-10 object-cover relative">
+                <div className="mx-auto">
                     <img src={flowersHeader} alt="flowers"
                          />
                     <img src={footerCake} alt="cakeFooter"
                          />
                 </div>
-                <div className="space-y-10 mr-auto">
+                <div className="space-y-10 mx-auto">
                         <img src={logoAgapeSello} alt="logoSello"
                              className="mx-auto mt-30"/>
-                        <h1 className="text-center font-light text-4xl text-ColorAgape">¡Visítanos en Redes sociales <br />
+                        <h1 className="text-center font-light text-2xl sm:text-4xl text-ColorAgape">¡Visítanos en Redes sociales <br />
                             y ordena ahora!</h1>
                         <div className="flex justify-center gap-8 mt-4">
                             <img src={whatsappIcon} alt="WhatsApp" className="" />
