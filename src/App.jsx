@@ -4,7 +4,7 @@ const App = () => {
     return (
         <>
             <HeaderAgape />
-            <main className="bg-agapeHeader">
+            <main className="bg-bg-primary">
                 <HeroAgape/>
                 <AboutUs/>
                 <Products/>

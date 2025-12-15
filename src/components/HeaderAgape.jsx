@@ -2,7 +2,7 @@ import {flowersHeader} from "../assets/index.js"
 
 const HeaderAgape = () => {
     return (
-        <nav className="bg-agapeHeader border-gray-200 px-4 lg:px-6 py-2.5 font-poppins z-10">
+        <nav className="bg-bg-primary border-gray-200 px-4 lg:px-6 py-2.5 font-poppins z-10">
             <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
                 <a className="flex items-center">
                     <img src={flowersHeader} className="h-10 sm:h-17" alt="Flowers"/>
@@ -17,20 +17,19 @@ const HeaderAgape = () => {
                     <ul className="flex flex-col mt-4 lg:flex-row lg:space-x-24 lg:mt-0">
                         <li>
                             <a href="#"
-                               className="text-ColorAgape hover:text-HoverAgape">
+                               className="text-primary-dark hover:text-accent-hover">
                                 Nosotros
-                                {/*className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:textColorAgape lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Nosotros*/}
                             </a>
                         </li>
                         <li>
                             <a href="#"
-                               className="text-ColorAgape hover:text-HoverAgape">
+                               className="text-primary-dark hover:text-accent-hover">
                                 Productos
                             </a>
                         </li>
                         <li>
                             <a href="#"
-                               className="text-ColorAgape hover:text-HoverAgape">
+                               className="text-primary-dark hover:text-accent-hover">
                                 Contactos</a>
                         </li>
                     </ul>

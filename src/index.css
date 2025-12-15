@@ -3,16 +3,16 @@
 
 @theme
 {
-    --color-agapeHeader: #f5f7f2;
-    --color-ColorAgape: #670251;
-    --color-HoverAgape: #ffb6f1;
-    --color-GreenAU: #ccdd97;
-    --color-agapeText: #fe82ef;
-    --color-buttomAgape: #fdb0f2;
-    --color-redText: #84002E;
-    --color-card3: #5E104F;
-    --color-card2: #BF73A5;
-    --color-card1: #FFB6F1;
+    --color-bg-primary: #f5f7f2;
+    --color-primary-dark: #670251;
+    --color-accent-hover: #ffb6f1;
+    --color-bg-secondary: #ccdd97;
+    --color-accent-text: #fe82ef;
+    --color-button-primary: #fdb0f2;
+    --color-text-danger: #84002E;
+    --color-surface-dark: #5E104F;
+    --color-surface-medium: #BF73A5;
+    --color-surface-light: #FFB6F1;
     --color-buttonO: #b483ab;
     --drop-shadow-cake: 0px 55px 35px rgba(0, 0, 0, 0.25);
 
