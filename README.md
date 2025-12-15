@@ -1,16 +1,64 @@
-# React + Vite
+<h2 align="center"> 🍰 Ágape Repostería — Landing Page </h2>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<div align="center">
+<p>Responsive bakery landing page built with React & TailwindCSS</p>
 
-Currently, two official plugins are available:
+![React](https://img.shields.io/badge/React-18+-blue?logo=react)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-v3-38bdf8?logo=tailwindcss&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-Build-fd4d0c?logo=vite&logoColor=white)
+![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
+</div>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<img src="assets/pagegif.gif"/>
+<!--
+<img src="assets/preview.png" />
+-->
 
-## React Compiler
+## 🧁 About the Project
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This project is a **responsive landing page** for an artisanal bakery brand, focused on **visual storytelling, product presentation, and brand identity**.
+It simulates a **real business website**, prioritizing clean UI, structured layouts, and a strong visual hierarchy.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+- Hero section with featured product and call-to-action  
+- “About Us” brand storytelling section  
+- Product showcase cards (cakes, cookies, desserts)  
+- Fully responsive layout (mobile → 2XL)  
+- Custom SVG wave separators  
+- Reusable React components  
+
+  
+---
+
+  
+## 🛠️ Tech Stack
+
+- **React 18** – Component-based UI  
+- **TailwindCSS** – Utility-first styling  
+- **Vite** – Fast development and build tool  
+
+  
+---
+
+
+## 📦 Installation & Usage
+
+Clone the repo and install dependencies:
+```bash
+git clone https://https://github.com/Mucca03/bakery-website
+cd bakery-website
+```
+
+Install dependencies:
+```
+npm install
+```
+
+Start the development server:
+
+```
+npm run dev
+```

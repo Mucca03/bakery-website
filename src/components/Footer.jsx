@@ -1,4 +1,4 @@
-import {flowersHeader, footerCake, logoAgapeSello, whatsappIcon, igIcon, backgroundFooter} from "../assets/index.js"
+import {flowersHeader, footerCake, logoAgapeSello, whatsappIcon, igIcon, backgroundFooter} from "../../public/assets/index.js"
 
 const Footer = () => {
     return (
