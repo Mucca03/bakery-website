@@ -1,4 +1,4 @@
-import {logoAgape, tortaAgape} from "../assets/index.js"
+import {logoAgape, tortaAgape} from "../../public/assets/index.js"
 
 const HeroAgape = () => {
     return (

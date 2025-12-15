@@ -1,5 +1,5 @@
 import {nuestrosClientes, cuchareableText, cookiesText, cakesText,
-    cuchareable, cookies, cakes, flowersHeader} from "../assets/index.js"
+    cuchareable, cookies, cakes, flowersHeader} from "../../public/assets/index.js"
 
 const Products = () => {
     return (

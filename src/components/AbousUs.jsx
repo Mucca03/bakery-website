@@ -1,4 +1,4 @@
-import {selloAgape, tortaAgapeA} from "../assets/index.js"
+import {selloAgape, tortaAgapeA} from "../../public/assets/index.js"
 
 const AboutUs = () => {
     return (
