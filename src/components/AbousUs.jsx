@@ -3,16 +3,16 @@ import {selloAgape, tortaAgapeA} from "../assets/index.js"
 const AboutUs = () => {
     return (
         <section>
-            <div className="relative bg-GreenAU font-poppins">
+            <div className="relative bg-bg-secondary font-poppins">
                 <div className="relative">
-                    <div className="bg-GreenAU"></div>
+                    <div className="bg-bg-secondary"></div>
                     <svg
                         className="absolute"
                         viewBox="0 0 1440 100"
                         xmlns="http://www.w3.org/2000/svg">
                         <path
                             fill="currentColor"
-                            className="text-agapeHeader"
+                            className="text-bg-primary"
                             fillRule="evenodd"
                             d="M0 0H1440V100H0V0Z M0 43.9999 C106.667 43.9999 213.333 7.99994 320 7.99994 C426.667 7.99994 533.333 43.9999 640 43.9999 C746.667 43.9999 853.333 7.99994 960 7.99994 C1066.67 7.99994 1173.33 43.9999 1280 43.9999 C1386.67 43.9999 1440 19.0266 1440 9.01329V100H0V43.9999Z"/>
                     </svg>
@@ -37,12 +37,12 @@ const AboutUs = () => {
                 px-5">
                     <div className=""></div>
                     <div className="2xl:space-y-10 lg:space-y-8 lg:mt-20">
-                        <h1 className="text-2xl 2xl:text-7xl lg:text-5xl font-bold text-agapeText mt-20">
+                        <h1 className="text-2xl 2xl:text-7xl lg:text-5xl font-bold text-accent-text mt-20">
                             ¿Quienes somos?
                         </h1>
 
                         <p className="text-base/7
-                        md:text-lg/8 2xl:text-5xl/15 lg:text-3xl/10 text-ColorAgape
+                        md:text-lg/8 2xl:text-5xl/15 lg:text-3xl/10 text-primary-dark
                         font-extralight italic">
                             En <b>Ágape</b>, somos más que una respostería <b>somos una
                             familia apasionada</b> por el arte de la reposteria
@@ -54,10 +54,10 @@ const AboutUs = () => {
                         </p>
                         <div className="space-x-10 mb-5 mt-3">
                             <button
-                                className="bg-buttomAgape
+                                className="bg-button-primary
                             cursor-pointer rounded-full
                             px-[30px] 2xl:py-[10px] lg:py-[3px]
-                            font-bold lg:text-2xl 2xl:text-4xl text-ColorAgape
+                            font-bold lg:text-2xl 2xl:text-4xl text-primary-dark
                             text-center whitespace-nowrap
                             drop-shadow-md/50"
                             >
@@ -67,9 +67,9 @@ const AboutUs = () => {
                                 className="
                             cursor-pointer rounded-full
                             border-2
-                            bg-GreenAU
+                            bg-bg-secondary
                             px-[30px] 2xl:py-[10px] lg:py-[3px]
-                            font-bold lg:text-2xl 2xl:text-4xl text-ColorAgape
+                            font-bold lg:text-2xl 2xl:text-4xl text-primary-dark
                             text-center whitespace-nowrap
                             drop-shadow-md/50"
                             >
@@ -78,7 +78,7 @@ const AboutUs = () => {
                         </div>
                     </div>
                 </div>
-                <div className="w-full bg-gradient-to-b from-GreenAU to-agapeHeader h-[100px] 2xl:top-[800px] lg:top-[570px]"></div>
+                <div className="w-full bg-gradient-to-b from-bg-secondary to-bg-primary h-[100px] 2xl:top-[800px] lg:top-[570px]"></div>
             </div>
         </section>
     )
