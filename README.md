@@ -9,6 +9,7 @@
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
 </div>
 
+<img src="assets/pagegif.gif"/>
 <!--
 <img src="assets/preview.png" />
 -->
